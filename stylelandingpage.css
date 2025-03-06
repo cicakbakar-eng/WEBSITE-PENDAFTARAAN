@@ -1,16 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 /* AWAL STYLE BODY */
 body {
     background-image: url(FOTO/skanifo2.jpg);
-    background-size: cover; 
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: center; 
+    background-position: center;
 }
+
 /* AKHIR STYLE BODY */
 
 /* AWAL STYLE SAMBUTAN */
 .SAMBUTAN {
-    background-size: cover; 
+    background-size: cover;
     background-position: center;
     height: 100vh;
     display: flex;
@@ -79,6 +81,7 @@ body {
     color: #666;
     line-height: 1.6;
 }
+
 .BUTTON {
     padding: 8px 20px;
     background-color: transparent;
@@ -87,5 +90,27 @@ body {
     border-radius: 20px;
     cursor: pointer;
 }
+
 /* AKHIR STYLE METODE */
 
+/* MEDIA QUERIES UNTUK RESPONSIVITAS */
+@media screen and (max-width: 768px) {
+    .METODE-CARD-CONTENT {
+        flex-direction: column; /* Mengubah arah flex menjadi vertikal */
+        align-items: center; /* Memusatkan item secara vertikal */
+    }
+
+    .METODE-CARD-CONTENT-ITEM {
+        width: 90%; /* Menggunakan persentase agar responsif */
+        margin: 10px 0; /* Mengurangi margin antar item */
+    }
+
+    .BUTTON {
+        padding: 6px 15px; /* Mengurangi padding tombol */
+        font-size: 14px; /* Mengurangi ukuran font tombol */
+    }
+
+    .SAMBUTAN-OVERLAY{
+        padding: 10px;
+    }
+}

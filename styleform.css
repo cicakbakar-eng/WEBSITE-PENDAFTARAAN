@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-image: url(FOTO/skanifo2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: "Poppins", sans-serif;
+}
+
+/* AWAL STYLE FORM */
+
+.FORM {
+    max-width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    max-width: 100%; /* Menggunakan 100% dari .FORM */
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 10px 15px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 18px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.container {
+    padding: 16px;
+    border-radius: 4px;
+}
+h1{
+    color: black;
+    text-align: center;
+}
+
+/* AKHIR STYLE FORM */
+
+@media screen and (max-width: 350px) {
+    .FORM {
+        max-width: 90%;
+        padding: 15px;
+    }
+    input[type=text] {
+        padding: 8px 12px;
+        font-size: 12px;
+    }
+    button {
+        padding: 10px 15px;
+        font-size: 12px;
+    }
+}

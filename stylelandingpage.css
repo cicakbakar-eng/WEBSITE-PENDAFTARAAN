@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* AWAL STYLE BODY */
+body {
+    background-image: url(FOTO/skanifo2.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+/* AKHIR STYLE BODY */
+
+/* AWAL STYLE SAMBUTAN */
+.SAMBUTAN {
+    background-size: cover; 
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-family: "Poppins", sans-serif;
+}
+
+.SAMBUTAN-OVERLAY {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* AKHIR STYLE SAMBUTAN */
+
+/* AWAL STYLE METODE */
+.METODE {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.METODE-CARD {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.METODE-CARD h1 {
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.METODE-CARD-CONTENT {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Menambahkan flex-wrap agar responsif */
+}
+
+.METODE-CARD-CONTENT-ITEM {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 250px;
+    text-align: center;
+}
+
+.METODE-CARD-CONTENT-ITEM img {
+    max-width: 100px;
+    margin-bottom: 15px;
+}
+
+.METODE-CARD-CONTENT-ITEM h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.METODE-CARD-CONTENT-ITEM p {
+    color: #666;
+    line-height: 1.6;
+}
+.BUTTON {
+    padding: 8px 20px;
+    background-color: transparent;
+    border: 2px solid rgb(26, 136, 240);
+    color: rgb(26, 136, 240);
+    border-radius: 20px;
+    cursor: pointer;
+}
+/* AKHIR STYLE METODE */
+

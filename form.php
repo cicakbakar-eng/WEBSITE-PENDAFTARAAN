@@ -10,7 +10,7 @@
 <body>
     <div class="FORM">
         <h1>FORM PENDAFTARAAN</h1>
-        <form>
+        <form action="pendaftaraan.php" method="POST">
             <div class="container">
                 <label for="nama"><b>NAMA</b></label>
                 <input type="text" placeholder="Nama" id="nama" name="nama" required>
@@ -18,14 +18,14 @@
                 <label for="alamat"><b>ALAMAT</b></label>
                 <input type="text" placeholder="Alamat" id="alamat" name="alamat" required>
 
-                <label for="jenisKelamin"><b>JENIS KELAMIN</b></label>
-                <input type="text" placeholder="Jenis Kelamin" id="jenisKelamin" name="jenisKelamin" required>
+                <label for="jenis_kelamin"><b>JENIS KELAMIN</b></label>
+                <input type="text" placeholder="Jenis Kelamin" id="jenis_kelamin" name="jenis_kelamin" required>
 
                 <label for="agama"><b>AGAMA</b></label>
                 <input type="text" placeholder="Agama" id="agama" name="agama" required>
 
-                <label for="sekolahAsal"><b>SEKOLAH ASAL</b></label>
-                <input type="text" placeholder="Sekolah asal" id="sekolahAsal" name="sekolahAsal" required>
+                <label for="sekolah_asal"><b>SEKOLAH ASAL</b></label>
+                <input type="text" placeholder="Sekolah asal" id="sekolah_asal" name="sekolah_asal" required>
 
                 <button type="submit">DAFTAR</button>
             </div>

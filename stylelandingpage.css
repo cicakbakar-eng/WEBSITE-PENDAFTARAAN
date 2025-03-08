@@ -10,6 +10,15 @@ body {
 
 /* AKHIR STYLE BODY */
 
+
+/*AWAL STYLE NAVBAR*/
+.navbar .bg-body-tertiary h1 {
+    font-family: "Poppins", sans-serif;
+    text-align: left;
+
+}
+/*AKHIR STYLE NAVBAR*/
+
 /* AWAL STYLE SAMBUTAN */
 .SAMBUTAN {
     background-size: cover;

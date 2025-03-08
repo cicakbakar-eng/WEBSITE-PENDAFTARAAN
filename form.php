@@ -8,6 +8,18 @@
     <title>PENDAFTARAAN ONLINE.com</title>
 </head>
 <body>
+        <!--AWAL CODE NAVBAR-->
+        <nav class="navbar bg-body-tertiary">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="https://www.bing.com/ck/a?!&&p=dbc4f67ad9eb27fa294abcf60c9c9ee060689d7b4667d1525eb81ae702662b13JmltdHM9MTc0MTM5MjAwMA&ptn=3&ver=2&hsh=4&fclid=0065715c-2396-6909-13e9-643b22c068d9&psq=logo+skanifo&u=a1aHR0cHM6Ly9zbWtuNGtlbmRhbC5zY2guaWQv&ntb=1">
+                <div style="width: 50px; margin-right: 10px;"><img src="FOTO/logo.png" alt="Logo Sekolah" width="100%" height="auto"></div>
+                <span>SMK NEGERI 4 KENDAL</span>
+            </a>
+        </div>
+    </nav>
+    </body>
+    <!--AKHIR CODE NAVBAR-->
+<!--AWAL CODE FORM-->
     <div class="FORM">
         <h1>FORM PENDAFTARAAN</h1>
         <form action="pendaftaraan.php" method="POST">
@@ -32,5 +44,6 @@
             </div>
         </form>
     </div>
+    <!--AKHIR CODE FORM-->
 </body>
 </html>
